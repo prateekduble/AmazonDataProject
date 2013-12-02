@@ -86,10 +86,10 @@ while($id  = shift) {
 		print "\n";
 	    }
 	}
-	if($page == 5)
-	{
-		last;
-	}
+	#if($page == 5)
+	#{
+	#	last;
+	#}
 	++$page;
 	sleep($sleepTime);
     }

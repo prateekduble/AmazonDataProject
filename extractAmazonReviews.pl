@@ -13,7 +13,8 @@ use strict;
 
 my $filename ="";
 my $count = 0;
-open (MYFILE, '>>data.txt');
+my $outfile = shift;
+open (MYFILE, ">>", $outfile);
 
 while($filename= shift) {
     open (FILE, "<", $filename)  or  next;
@@ -112,10 +113,10 @@ while($filename= shift) {
 	$review =~ s/\r/ /g;
 	$review =~ s/"/'/g;
 
-	if(length($review) > 0) {
+	if(length($people) > 0) {
 	    #print "\"$count\",\"$newDate\",\"$model\",\"$rating\",\"$date\",\"$userId\",\"$title\",\"$review\"\n";
-	    print "\"$count\",\"$newDate\",\"$model\",\"$rating\",\"$people\",\"$outof\",\"$userId\",\"$title\"\n";
-	    print MYFILE "\"$count\",\"$newDate\",\"$model\",\"$rating\",\"$people\",\"$outof\",\"$userId\",\"$title\"\n";
+	    print "\"$model\",\"$rating\",\"$people\",\"$outof\",\"$userId\",\"$title\"\n";
+	    print MYFILE "\"$model\",\"$rating\",\"$people\",\"$outof\",\"$userId\",\"$title\"\n";
 	}
 	++$count;
     }
