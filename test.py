@@ -18,7 +18,7 @@ outfile = "%s_%s.txt" % (index,keyword)
 #print outfile
 
 # Call ItemSearch to search in Books category, sort by salesrank, with best sellers keywords and get Reviews links
-for x in range(1, 3):
+for x in range(1,10):
     itemsearch = "amazon.ItemSearch(SearchIndex=\"%s\", Sort=\"%s\", Keywords=\"%s\", ItemPage=%d, ResponseGroup=\"Reviews\")" % (index,sort,keyword,x)
     response = eval(itemsearch)
     #print response
