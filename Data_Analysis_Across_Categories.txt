@@ -1,0 +1,102 @@
+Electronics_camera.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	54794 (53.54%)	47548 (46.46%)	102342 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	112183 (96.29%)	4326 (3.71%)	116509 (100%)
+Electronics_camera.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	43784 (74.40%)	15067 (25.60%)	58851 (100%)
+Positive	60538 (84.35%)	11235 (15.65%)	71773 (100%)
+
+Electronics_monitors.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	1669 (39.20%)	2589 (60.80%)	4258 (100%)
+Positive	9560 (83.68%)	1864 (16.32%)	11424 (100%)
+Electronics_monitors.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	432 (60.00%)	288 (40.00%)	720 (100%)			Negative reviews are more helpful (supports Hypothesis)
+Positive	396 (93.62%)	27 (6.38%)		423 (100%)
+
+Electronics_phones.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	45809 (57.18%)	34311 (42.82%)	80120 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	76085 (84.35%)	14115 (15.65%)	90200 (100%)
+Electronics_phones.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	102378 (73.72%)	36502 (26.28%)	138880 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	138030 (85.81%)	22831 (14.19%)	160861 (100%)
+
+Electronics_printers.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	31110 (53.96%)	26545 (46.04%)	57655 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	79439 (94.48%)	4643 (5.52%)	84082 (100%)
+Electronics_printers.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	161939 (74.31%)	55978 (25.69%)	217917 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	214326 (84.12%)	40464 (15.88%)	254790 (100%)
+
+Utilitarian.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	133382 (54.58%)	110993 (45.42%)	244375 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	277267 (91.74%)	24948 (8.26%)	302215 (100%)
+Utilitarian.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	308533 (74.10%)	107835 (25.90%)	416368 (100%)		Negative reviews are more helpful (supports Hypothesis)
+Positive	413290 (84.72%)	74557 (15.28%)	487847 (100%)
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+Books_fiction.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	249899 (72.29%)	95799 (27.71%)	345698 (100%)		
+Positive	191214 (65.22%)	101974 (34.78%)	293188 (100%)
+Books_fiction.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	32 (28.32%)		81 (71.68%)		113 (100%)			Negative reviews are less helpful (supports Hypothesis)
+Positive	403 (85.93%)	66 (14.07%)		469 (100%)
+
+Books_textbooks.txt (bestsellers)
+                Helpful         Not Helpful     Total Respondents
+Negative        50001 (50.86%)  48310 (49.14%)  98311 (100%)	Negative reviews are MORE helpful (supports Hypothesis)
+Positive        92154 (80.03%)  23000 (19.97%)  115154 (100%)
+--------------------------------------------------------------------------
+Music_cds.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	40794 (37.35%)	68435 (62.65%)	109229 (100%)		Negative reviews are less helpful (supports Hypothesis)
+Positive	128798 (68.00%)	60613 (32.00%)	189411 (100%)
+Music_cds.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	48 (19.67%)		196 (80.33%)	244 (100%)			Negative reviews are less helpful (supports Hypothesis)
+Positive	580 (75.52%)	188 (24.48%)	768 (100%)
+--------------------------------------------------------------------------
+Magazines_magazines.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	276211 (66.50%)	139126 (33.50%)	415337 (100%)
+Positive	314499 (82.04%)	68844 (17.96%)	383343 (100%)
+Magazines_magazines.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	272 (49.19%)	281 (50.81%)	553 (100%)			Negative reviews are less helpful (supports Hypothesis)
+Positive	529 (78.96%)	141 (21.04%)	670 (100%)
+--------------------------------------------------------------------------
+Video_dvds.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	14670 (23.59%)	47526 (76.41%)	62196 (100%)		Negative reviews are less helpful (supports Hypothesis)
+Positive	43790 (80.39%)	10681 (19.61%)	54471 (100%)
+Video_dvds.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	7662 (45.84%)	9052 (54.16%)	16714 (100%)		Negative reviews are less helpful (supports Hypothesis)
+Positive	12896 (69.11%)	5765 (30.89%)	18661 (100%)
+
+Video_documentaries.txt (bestsellers)
+                Helpful         Not Helpful     Total Respondents
+Negative        45844 (78.32%)	12691 (21.68%)  58535 (100%)	Negative reviews are MORE helpful (supports Hypothesis)
+Positive        44647 (72.02%)  17347 (27.98%)  61994 (100%)
+--------------------------------------------------------------------------
+Hedonic.txt (bestsellers)
+			Helpful			Not Helpful		Total Respondents
+Negative	581574 (62.37%)	350886 (37.63%)	932460 (100%)
+Positive	678301 (73.70%)	242112 (26.30%)	920413 (100%)
+Hedonic.txt (Price low to high)
+			Helpful			Not Helpful		Total Respondents
+Negative	8014 (45.47%)	9610 (54.53%)	17624 (100%)		Negative reviews are less helpful (supports Hypothesis)
+Positive	14408 (70.05%)	6160 (29.95%)	20568 (100%)
+--------------------------------------------------------------------------
+
