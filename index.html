@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Amazon Data Project by prateekduble</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/prateekduble/AmazonDataProject">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/prateekduble/AmazonDataProject/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/prateekduble/AmazonDataProject/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Amazon Data Project</h1>
+          <p></p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/prateekduble">prateekduble</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h1>
+<a name="amazon-data-project" class="anchor" href="#amazon-data-project"><span class="octicon octicon-link"></span></a>Amazon Data Project</h1>
+
+<p>This project is trying to understand consumer behavior based on the the helpfulness of the negative and positive reviews for product categories: Utilitarian and Hedonic</p>
+
+<ol>
+<li>In order to extract the reviews for Categories such as Music, Books etc with keywords (ex: "fiction") ordered by salesrank (or price(low to high) or inverted price (high to low)), Use the following command:</li>
+</ol><p>$ python test.py Books fiction salesrank</p>
+
+<p>This will create a file called, Books_fiction.txt. This data will have 30 products (ordered by salesrank) and all their associated reviews.</p>
+
+<ol>
+<li><p>A sample line of data will look like:
+ItemId, review_rating, #people_found_it_useful, #out_of_how_many, reviewer_id, title_of_the_review
+"B00CNQ7HAU","2.0","2","4","A3NNLN31LHD8Q7","So disappointing..."</p></li>
+<li><p>The code in analysis.py takes the above data file as argument:</p></li>
+</ol><p>$ python analysis.py Books_fiction.txt</p>
+
+<p>Output:
+        Helpful         Not Helpful     Total Respondents
+Negative    249899 (72.29%)     95799 (27.71%)      345698 (100%)<br>
+Positive    191214 (65.22%)     101974 (34.78%)     293188 (100%)</p>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
