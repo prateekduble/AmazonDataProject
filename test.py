@@ -13,7 +13,7 @@ from sys import argv
 script, index, keyword, sort = argv
 
 # Create amazon object with AWS keys
-amazon = bottlenose.Amazon("AKIAJH5EETC4L6R6VFUQ", "NZLt8i3TL7HTvFX4321HHKZE0yINDHmvTjAfDIw4", "httpwwwpdspro-20")
+amazon = bottlenose.Amazon("hidden", "hidden", "hidden")
 outfile = "%s_%s.txt" % (index,keyword)
 #print outfile
 
